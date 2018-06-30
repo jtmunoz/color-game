@@ -3,9 +3,10 @@
 </template>
 
 <script>
-export deTile',
+export default {
+  name: 'HelloWorld',
   props: {
-    
+    msg: String
   }
 }
 </script>
