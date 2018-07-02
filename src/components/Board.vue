@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'Tile',
+  name: 'Board',
   props: {
     msg: String
   }
@@ -13,8 +13,6 @@ export default {
 
 <style scoped>
 	div{
-		border-radius: 5px;
-		width: 20vw;
-		height: 20vw;
+		border: 1px solid #efefef;
 	}
 </style>
